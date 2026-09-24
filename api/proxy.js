@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   try {
     const targetUrl = 'https://www.parlaytrade.online' + req.url;
     
